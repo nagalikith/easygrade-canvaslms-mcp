@@ -1,0 +1,13 @@
+[project]
+name = "python-mcp-canvas"
+version = "0.1.0"
+dependencies = [
+  "fastmcp",
+  "httpx",
+  "pydantic",
+  "PyYAML"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,11 @@
+name: canvas-mcp
+version: 1.0.0
+
+canvas:
+  token: "YOUR_CANVAS_TOKEN"
+  domain: "YOUR_CANVAS_DOMAIN"
+  maxRetries: 3
+  retryDelay: 1
+
+llm:
+  apiKey: "FIREWORKS_API_KEY"
